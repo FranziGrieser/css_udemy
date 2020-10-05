@@ -13,12 +13,22 @@
   body { font-size: 18px; }
   section { padding: 60px 0; }
 
+  .section-features .col {
+    width: 50%;
+    margin: 0 0 4% 0;
+  }
+
+  .section-cities .col {
+    width: 50%;
+    margin: 0 0 4% 0;
+  }
+
   .long-copy {
     width: 80%;
     margin-left: 10%;
   }
 
-  .steps-box { margin-top: 10px; }
+  .steps-box:first-child { margin-top: 10px;}
   .steps-box:last-of-type { margin-top: 10px; }
   .works-step { margin-bottom: 40px; }
   .works-step:last-of-type { margin-bottom: 60px; }
@@ -28,6 +38,7 @@
     width: 17px;
     margin-right: 1px;
   }
+
   .city-feature { font-size: 90%; }
 
   .plan-box {
@@ -65,13 +76,6 @@
 
   .steps-box:first-child { text-align: center; }
   .app-screen { width: 40%; }
-
-  .box,
-  .box:first-child {
-    width: 90%;
-    padding: 0;
-    margin-left: 5%;
-  }
 
   .works-step div {
     height: 40px;
