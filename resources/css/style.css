@@ -32,11 +32,7 @@ body {
 /* ------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------- */
-
-/*
-orange: #e67e22;
-*/
-
+/* orange: #e67e22; */
 .row {
   max-width: 1140px;
   margin: 0 auto;
@@ -189,7 +185,6 @@ input[type=submit]:active {
 /* ------------------------------------- */
 /* HEADER */
 /* ------------------------------------- */
-
 header {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(img/hero-min.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(img/hero-min.jpg);
@@ -224,8 +219,8 @@ header {
   float: left;
   margin: 5px 0;
 }
-/* main nav */
 
+/* main nav */
 .main-nav {
   float: right;
   list-style: none;
@@ -269,7 +264,6 @@ header {
 }
 
 /* sticky nav */
-
 .sticky {
   position: fixed;
   top: 0;
@@ -301,7 +295,6 @@ header {
 /* ------------------------------------- */
 /* MEALS */
 /* ------------------------------------- */
-
 .section-meals { padding: 0; }
 
 .meals-showcase {
@@ -346,7 +339,6 @@ header {
 /* ------------------------------------- */
 /* HOW IT WORKS */
 /* ------------------------------------- */
-
 .section-steps,
 .section-plans { background-color: #f4f4f4; }
 
@@ -393,7 +385,6 @@ header {
 /* ------------------------------------- */
 /* CITIES */
 /* ------------------------------------- */
-
 .box img {
   width: 100%;
   height: auto;
@@ -405,7 +396,6 @@ header {
 /* ------------------------------------- */
 /* TESTIMONIALS */
 /* ------------------------------------- */
-
 .section-testimonials {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
@@ -460,7 +450,6 @@ cite img {
 /* ------------------------------------- */
 /* SIGN UP */
 /* ------------------------------------- */
-
 .plan-box {
   background-color: #fff;
   border-radius: 5px;
@@ -507,7 +496,6 @@ cite img {
 /* ------------------------------------- */
 /* CONTACT FORM */
 /* ------------------------------------- */
-
 .contact-form {
   width: 60%;
   margin: 0 auto;
@@ -533,7 +521,6 @@ input[type=checkbox] { margin: 10px 5px 10px 0; }
 /* ------------------------------------- */
 /* FOOTER */
 /* ------------------------------------- */
-
 footer {
   background-color: #333;
   padding: 50px;
@@ -599,11 +586,9 @@ footer p {
   margin-top: 20px;
 }
 
-
 /* ------------------------------------- */
 /* ANIMATIONS */
 /* ------------------------------------- */
-
 .js--wp-1,
 .js--wp-2,
 .js--wp-3 {

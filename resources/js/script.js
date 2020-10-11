@@ -10,7 +10,6 @@ $(document).ready(function() {
       offset: "61px"
     });
 
-
     // scroll to buttons
     $(".js--scroll-to-plan").click( function() {
         $("html, body").animate({scrollTop: $(".js--section-plans").offset().top}, 1000);
@@ -19,7 +18,6 @@ $(document).ready(function() {
     $(".js--scroll-to-features").click( function() {
         $("html, body").animate({scrollTop: $(".js--section-features").offset().top}, 1000);
     });
-
 
     // animations
     $(".js--wp-1").waypoint(function(direction) {
@@ -46,7 +44,6 @@ $(document).ready(function() {
       {
         offset: '50%',
       });
-
 
     // mobile nav
     $(".js--nav-icon").click(function(){
